@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0EDBC21B2949AC130031E88B /* MoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBC21A2949AC130031E88B /* MoreDetailView.swift */; };
+		0EDBC21D2949B8920031E88B /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBC21C2949B8920031E88B /* DiagramView.swift */; };
 		0EFB746F2922C79F00A2C2F1 /* HW4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB746E2922C79F00A2C2F1 /* HW4App.swift */; };
 		0EFB74712922C79F00A2C2F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB74702922C79F00A2C2F1 /* ContentView.swift */; };
 		0EFB74732922C7A000A2C2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB74722922C7A000A2C2F1 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0EDBC21A2949AC130031E88B /* MoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailView.swift; sourceTree = "<group>"; };
+		0EDBC21C2949B8920031E88B /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
 		0EFB746B2922C79F00A2C2F1 /* HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFB746E2922C79F00A2C2F1 /* HW4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW4App.swift; sourceTree = "<group>"; };
 		0EFB74702922C79F00A2C2F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				0EFB74702922C79F00A2C2F1 /* ContentView.swift */,
 				0EFB748E2922D0E500A2C2F1 /* DetailDataView.swift */,
 				0EDBC21A2949AC130031E88B /* MoreDetailView.swift */,
+				0EDBC21C2949B8920031E88B /* DiagramView.swift */,
 				0EFB747C2922C7F300A2C2F1 /* Networking.swift */,
 				0EFB747E2922C80800A2C2F1 /* Parsing.swift */,
 				0EFB74802922C81800A2C2F1 /* Data.swift */,
@@ -179,6 +182,7 @@
 				0EFB74712922C79F00A2C2F1 /* ContentView.swift in Sources */,
 				0EFB746F2922C79F00A2C2F1 /* HW4App.swift in Sources */,
 				0EFB74832922C82600A2C2F1 /* Storage.swift in Sources */,
+				0EDBC21D2949B8920031E88B /* DiagramView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

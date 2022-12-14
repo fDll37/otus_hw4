@@ -9,16 +9,12 @@ import SwiftUI
 
 struct MoreDetailView: View {
     @Binding var data: Data
+    @State var imageName = "1"
     
     var body: some View {
-        HStack(alignment: .center) {
-            Image("1")
-                .resizable()
-                .dynamicTypeSize(.medium)
-            VStack {
-                Text(data.info)
-                Spacer()
-                Text(data.name)
+        NavigationLink(destination: DiagramView(data: $data, imageName: $imageName)) {
+            HStack(alignment: .center) {
+                Text("Press me and you will see the Image")               
             }
             .dynamicTypeSize(.medium)
         }
