@@ -12,9 +12,12 @@ struct DetailDataView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(data.info)
-            Text(data.name)
+            NavigationLink(destination: MoreDetailView(data: $data)) {
+                Text(data.info)
+                Text(data.name)
+            }
         }
+        .navigationTitle("Navigation Title")
     }
 }
 
